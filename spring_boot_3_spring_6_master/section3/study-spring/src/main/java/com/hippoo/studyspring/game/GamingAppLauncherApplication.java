@@ -1,7 +1,5 @@
-package com.hippoo.studyspring;
+package com.hippoo.studyspring.game;
 
-import com.hippoo.studyspring.game.GameRunner;
-import com.hippoo.studyspring.game.GamingConsole;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
