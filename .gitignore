@@ -157,3 +157,5 @@ sketch
 
 *.idea
 *.idea/
+
+**/materials/
