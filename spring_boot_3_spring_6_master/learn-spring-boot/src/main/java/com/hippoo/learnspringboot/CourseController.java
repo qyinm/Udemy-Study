@@ -11,7 +11,7 @@ public class CourseController {
     public List<Course> retrieveAllCourses() {
         return List.of(
                 new Course(1, "Learn AWS", "inflearn"),
-                new Course(2, "Learn DevOps", "udemy")
-        );
+                new Course(2, "Learn DevOps", "udemy"),
+                new Course(1, "Learn Azure", "solo"));
     }
 }
