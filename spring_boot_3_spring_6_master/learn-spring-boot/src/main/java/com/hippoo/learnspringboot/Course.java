@@ -27,4 +27,6 @@ public class Course {
     public String toString() {
         return "Course{" + "id=" + id + ", name='" + name + '\'' + ", author='" + author + '\'' + '}';
     }
+
+    // make a id author is not same name, check method
 }
