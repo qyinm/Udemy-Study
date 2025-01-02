@@ -1,0 +1,3 @@
+insert into course (ide,name,author) values(1, 'learn aws', in28');
+select * from course
+delete from course where id=1
