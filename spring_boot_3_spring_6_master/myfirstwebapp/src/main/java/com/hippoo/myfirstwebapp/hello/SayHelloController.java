@@ -1,10 +1,8 @@
 package com.hippoo.myfirstwebapp.hello;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 //@RestController
 @Controller
@@ -31,6 +29,15 @@ public class SayHelloController {
         sb.append("</html>");
 
         return sb.toString();
+    }
+
+    // /src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
+    // /src/main/resources/META-INF/resources/WEB-INF/jsp/welcome.jsp
+    // /src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp
+    // /src/main/resources/META-INF/resources/WEB-INF/jsp/todos.jsp
+    @RequestMapping("say-hello-jsp")
+    public String sayHelloJsp() {
+        return "sayHello";
     }
 }
 
