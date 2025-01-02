@@ -16,7 +16,8 @@ public class CourseJpaRepository {
     private EntityManager entityManager;
 
     public void insert(Course course) {
-        entityManager.persist(course);
+//        entityManager.persist(course);
+        entityManager.merge(course);
     }
 
     public Course findById(long id) {
