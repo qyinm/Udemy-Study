@@ -7,7 +7,6 @@
 <div>
     hi!
     <div>Your Name: ${name}</div>
-    <div>Your Password: ${password}</div>
 </div>
 </body>
 </html>
