@@ -4,7 +4,6 @@
 </head>
 <body>
 <h1>Welcome to the login page!</h1>
-<h1>name ${name}</h1>
 <form method="post">
     Name: <input type="text" name="name"/>
     Password: <input type="password" name="password"/>
