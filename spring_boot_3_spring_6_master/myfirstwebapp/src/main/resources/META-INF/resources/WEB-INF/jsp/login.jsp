@@ -5,9 +5,10 @@
 <body>
 <h1>Welcome to the login page!</h1>
 <h1>name ${name}</h1>
-<form action="/login" method="post">
-    <input type="text" name="username"/>
-    <input type="password" name="password"/>
+<form method="post">
+    Name: <input type="text" name="name"/>
+    Password: <input type="password" name="password"/>
+    <input type="submit" value="Submit"/>
 </form>
 </body>
 </html>
